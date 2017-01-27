@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+#border {
+  background-color: grey;
+  display: inline;
+  border-color: transparent;
+  border-width: 6px;
+  border-style: solid;
+  color: white;
+  padding: 20px;
+  transition: border-color 10s;
+}
+
+#border:hover {
+  border-color: blue;
+
+
+}
